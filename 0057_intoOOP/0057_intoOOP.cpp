@@ -43,5 +43,20 @@ int main() {
 	mhs.nama = "Busi";
 	mhs.umur = 20;
 	mhs.jurusan = "Hukum";
+    mhs.output();
+
+	mk.input();
+	mk.output();
+	return 0;
 	
-}
+}    
+
+#include <iostream>
+using namespace std;
+
+class bangunDatar {
+private:
+	float Panjang, Lebar;
+
+
+};
