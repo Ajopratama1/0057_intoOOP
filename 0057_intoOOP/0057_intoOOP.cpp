@@ -66,5 +66,11 @@ public:
 		cin >> Lebar;
 	}
 
+	float hitungluas() {
+		return panjang * lebar;
+
+	}
+
+	
 
 };
