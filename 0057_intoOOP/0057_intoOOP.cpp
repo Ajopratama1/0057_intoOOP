@@ -8,6 +8,8 @@ public: // akses modifer
 	string jurusan;
 
 	void input() {
-
+		cout << "Nama: " << nama << endl;
+		cout << "Umur: " << umur << endl;
+		cout << "Jurusan: " << jurusan << endl;
 	}
-}
+};
