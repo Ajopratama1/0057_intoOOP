@@ -7,7 +7,7 @@ public: // akses modifer
 	int umur;
 	string jurusan;
 
-	void input() {
+	void output() {
 		cout << "Nama: " << nama << endl;
 		cout << "Umur: " << umur << endl;
 		cout << "Jurusan: " << jurusan << endl;
@@ -67,13 +67,13 @@ public:
 	}
 
 	float hitungluas() {
-		return panjang * lebar;
+		return Panjang * Lebar;
 
 	}
 
 	void display() {
-		cout << "Panjangnya = " << panjang << endl;
-		cout << "Lebarnya = " << lebar << endl;
+		cout << "Panjangnya = " << Panjang << endl;
+		cout << "Lebarnya = " << Lebar << endl;
 		cout << "Luasnya = " << hitungluas() << endl;
 	}
 
