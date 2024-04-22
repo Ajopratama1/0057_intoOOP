@@ -57,6 +57,8 @@ using namespace std;
 class bangunDatar {
 private:
 	float Panjang, Lebar;
+public:
+	float luas
 
 
 };
